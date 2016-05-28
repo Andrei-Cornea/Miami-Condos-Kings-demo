@@ -1,0 +1,534 @@
+
+
+*,body{
+    margin: 0;
+    padding: 0;
+}
+
+.hide{
+    display: none;
+}
+a { outline: none !important; }
+
+.slider > img {
+    position: absolute;
+    background-size: cover;
+    background-position: center center;
+}
+.call {
+    width:98%;
+    margin-left:1%;
+
+
+}
+
+body{
+    font-family: Ubuntu;
+    color:  #000000;;
+}
+
+.gallery .title{
+    position: relative;
+    top: -70px;
+
+}
+
+.title p{
+color:  #000000;
+font-size: 48px !important;/* Approximation due to font substitution */
+font-weight: 300 ;
+line-height: 30px  !important;
+}
+
+.consultation .title,
+.testimonials .title,
+.contact .title{
+position: relative;
+top: -20px;
+}
+
+
+
+/* ===== SECTION TITLE UNDERLINE ==== */
+.title span{
+position: relative;
+top: -15px;
+}
+.consultation .title span,
+.contact .title span,
+.testimonials .title span
+{
+position: relative;
+top: 0px;
+}
+
+.consultation .title span:before,
+.consultation .title span:after {
+width: 17%;
+}
+.testimonials .title span:before,
+.testimonials .title span:after {
+width: 15%;
+}
+
+.title span:before,
+.title span:after {
+    background-color: #00aaef;
+    content: "";
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    vertical-align: super;
+    width: 9%;
+}
+
+.title span:before {
+    right: 0.7em;
+}
+.title span:after {
+    left: 0.7em;
+}
+/* ===== SECTION TITLE UNDERLINE END ==== */
+
+.vertical{
+    height: inherit;
+    width:inherit;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.nav-justified{
+position: relative;
+margin-top:68vh;
+width: 100%;
+
+}
+
+
+/* header a,
+header a:hover,
+a:focus{
+    color: white;
+    background: none;
+    cursor: default;
+    text-decoration: none !important;
+} */
+
+nav a, nav a:focus,nav a:hover {
+    color: white;
+    text-decoration: none !important;
+    background-color: inherit !important;
+}
+
+header li:first-child{
+margin-left:0 !important;
+padding-left: 0 !important;
+}
+
+header li  {
+text-transform: uppercase;
+margin-left:9.4% !important;
+font-family: Ubuntu;
+color: #ffffff;
+font-size: 16px;
+font-weight: 500;
+line-height: 36px;
+display: inline;
+padding: 0px !important;
+}
+header li a{
+    padding: 0px;
+}
+.slider {
+   /*  background: url("img/slide/Layer%2043.png") center center;
+    background-size: cover;  */
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#homesection .container{
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    /* margin: 0 auto; */
+    padding: 0px;
+
+}
+
+#homesection{
+  padding: 0;
+  background-color:none;
+}
+
+.nomargin{
+    margin: 0 !important;
+}
+.nopadding{
+    padding: 0 !important;
+}
+
+
+.call p{
+    color:rgba( 255, 255, 255, 0.6 );
+    padding-top: 50px;
+    font-size: 16px;
+}
+
+
+.underline p{
+    border-bottom: 1px solid ;
+    border-bottom-style: dashed;
+    /* float: right;*/
+    width: 120px;
+
+}
+
+
+.about .big, .about .big span {
+    font-family: Ubuntu;
+    font-size: 48px;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color:  #000000;
+    text-align: left;
+}
+
+
+
+.about .big span, span {
+    color:  #00aaef;
+}
+
+b{
+font-family: Ubuntu;
+color: #000000;
+font-weight: 900;
+}
+.about .big b{
+    font-family: Ubuntu;
+    font-weight: 500;
+}
+
+.about-text{
+font-family: Ubuntu;
+font-size: 16px;
+font-weight: 400;
+color:  #000000;
+}
+
+
+.about {
+    position: relative;
+    display: table-cell;
+    height: 643px;
+    vertical-align: middle;
+    /* height:100vh; */
+}
+
+.gallery {
+    display: table-cell;
+    height: 1200px;
+    width: 100vw;
+    vertical-align: middle;
+}
+
+.gallery .btn{
+    margin-bottom:50px;
+}
+
+.gallery p{
+
+    margin-bottom: 25px;
+    margin-top: 5px;
+
+}
+.container{
+    max-width: 960px !important;
+
+}
+
+.btn,
+.btn > a,
+.btn:focus,
+.btn:visited{
+    vertical-align: bottom;
+    border-radius: 0px;
+    background:  #00aaef;
+    color: white;
+}
+.btn:hover,
+button:hover,
+button:focus
+{
+    background:  #0098d8;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.consultation .row{
+    height: 539px;
+    width:inherit;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+
+.form-control {
+    border-radius: 0px;
+    background: #eeeeee;
+    height: 52px;
+    text-align:center;
+    color:  #393939;
+
+}
+
+
+.form-control::-webkit-input-placeholder{
+font-family: Ubuntu;
+color:  #393939;
+font-size: 14px;/* Approximation due to font substitution */
+font-weight: 500;
+line-height: ;/* Approximation due to font substitution */
+text-align: center
+}
+
+.form-control::-moz-placeholder{
+font-family: Ubuntu;
+color:  #393939;
+font-size: 14px;/* Approximation due to font substitution */
+font-weight: 500;
+line-height: ;/* Approximation due to font substitution */
+text-align: center
+}
+
+.form-control:-ms-input-placeholder{
+font-family: Ubuntu;
+color:  #393939;
+font-size: 14px;/* Approximation due to font substitution */
+font-weight: 500;
+line-height: ;/* Approximation due to font substitution */
+text-align: center
+}
+
+textarea:focus::-webkit-input-placeholder{
+    opacity: 0;
+}
+
+input:focus::-webkit-input-placeholder{
+    opacity: 0;
+}
+
+input:focus::-moz-placeholder{
+    opacity: 0;
+}
+input:focus:-ms-input-placeholder{
+    opacity: 0;
+}
+
+
+
+
+.consultation p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+
+.testimonials  .container{
+    height: 100%;
+
+}
+
+.testimonials  .container .col-sm-4{
+    height: 100%;
+    margin-top: 50px;
+     margin-bottom: 50px;
+}
+
+.testimonials p {
+color:  #000000;
+font-size: 16px;
+font-weight: 400;
+}
+
+.quotation-mark{
+    top: -50px;
+    position: relative;
+    left: -20px;
+    font-weight: bold;
+    font-size:100px;
+    color:black !important;
+    font-family: "Times New Roman", Georgia, Serif;
+
+}
+
+.testimonials span{
+    color: #696973;
+}
+
+
+.contact {
+    height: 611px;
+}
+
+.contact p{
+font-size: 24px;
+font-weight: 400;
+line-height: 36px;
+}
+
+.footer{
+    background: url("img/nastol.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer .container{
+    height: 540px;
+}
+
+.footer p{
+
+    color: white;
+    font-family: Ubuntu;
+    font-size: 16px;/* Approximation due to font substitution */
+    font-weight: 500;
+    line-height: 36px;/
+
+}
+
+.footer .bottom-xs{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    height: 270px;
+
+}
+
+
+
+.glyphicon {
+    line-height: 4;
+}
+
+
+
+
+.btnst {
+    padding: 5px;
+    width: 35px;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    bottom: 50px;
+    padding-bottom: 0;
+    font-size: 25px;
+    line-height: 25px;
+    font-family: Ubuntu;
+    font-weight: 700;
+
+}
+
+.navbar-toggle {
+    border: 1px solid white;
+    right:10px;
+    top: 25px;
+        }
+
+.navbar-collapse {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    width: 100%;
+}
+
+.navbar-toggle .icon-bar {
+        background: white;
+}
+
+
+@media (max-width: 767px){
+
+*{
+    margin: 0;
+    padding: 0;
+}
+    .testimonials{
+        height: 100%;
+    }
+
+    header{
+        margin-top: 0;
+        position: relative;
+        top:-20px;
+
+    }
+    .nav-justified{margin-top: 1vh;
+                    height:100%;
+                    width: 100%;
+        overflow: hidden;
+ background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0.29) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0.29))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.29) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.29) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0.29) 100%); /* IE10+ */
+    }
+
+    .nav-justified li{margin-left: 0% !important;}
+
+    .navbar-brand > img {margin-left: 45%;}
+
+    .contact{
+        height:150vh;
+        margin-bottom: 90px;
+    }
+    .contact .row .col-xs-12  p{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .gallery .row .col-xs-12 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .about-text{
+        margin-bottom: 50px;
+    }
+
+    .consultation {
+        height: 110vh;
+        margin-bottom: 90px;
+    }
+}
+
+@media (max-width: 380px){
+    .call .logo{
+    width: 60%;
+    }
+    .gallery .title {
+        top: -65px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 765px) {
+.gallery .title {
+    top: -52px;
+    }
+.gallery {
+    height: 927px;
+}
+
+    @media (max-width: 765px){
+        .slider{
+            height: 461px;
+        }
+    }
